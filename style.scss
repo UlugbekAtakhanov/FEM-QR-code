@@ -1,0 +1,56 @@
+$lightGray: hsl(212, 45%, 89%);
+$grayishBlue: hsl(220, 15%, 55%);
+$darkBlue: hsl(218, 44%, 22%);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $lightGray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    padding: 20px;
+}
+
+.container {
+    background: #fff;
+    max-width: 375px;
+    width: 100%;
+    border-radius: 18px;
+    padding: 15px;
+
+
+    img {
+        width: 100%;
+        border-radius: 18px;
+    }
+
+    p {
+        color: $darkBlue;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        padding-inline: 20px;
+    }
+
+    p:last-child {
+        font-size: 16px;
+        color: $grayishBlue;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+}
+
+.attribution {
+    display: none;
+}
